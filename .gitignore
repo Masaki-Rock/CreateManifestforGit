@@ -1,0 +1,10 @@
+build/reports
+.gradle
+build/resources
+package-git.xml
+build/test-results/test/TEST-com.tools.git.MainTest.xml
+build/test-results/test/TEST-LibraryTest.xml
+build/test-results/test/binary/output.bin
+build/test-results/test/binary/output.bin.idx
+build/test-results/test/binary/results.bin
+build/tmp/jar/MANIFEST.MF
