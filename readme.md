@@ -6,9 +6,13 @@
 移送元の組織へある期間で変更されたメタデータの一覧がマニュフェストファイルで取得できます。
 あとは、Ant Migration Toolでメタデータを取得し移送先にデプロイするだけで組織間の同期を取ることができます。
 ## 実行方法
-java -jar build/libs/CreateManifestfileTool {from Commit ID} {to Commit ID}
-※必要に応じてバッチファイルを作成してください。
-コミット間で、Diffを取得し差分があるメタデータをマニュフェストファイルに出力します。
+## 実行方法
+- jarファイルは、デプロイ時に参照しやすい位置に配置してください。
+- java -jar build/libs/CreateManifestfileTool {from Commit ID} {to Commit ID} (※必要に応じてバッチファイルを作成してください。)
+- コミット間で、Diffを取得し差分があるメタデータをマニュフェストファイルに出力します。
+- 引数
+    - 第一引数：開始CommitID
+    - 第二引数：終了CommitID
 ## 関連ツール
 - Ant
 - Ant Migration Tool
