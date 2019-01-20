@@ -16,4 +16,4 @@
 - Ant
 - Ant Migration Tool
 - Git
-- 提供しているAutobackupToolに含まれる
+- 提供しているAutoBackUpにこの機能は含まれています
