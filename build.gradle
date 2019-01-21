@@ -13,10 +13,10 @@ plugins {
 
 def defaultEncoding = 'UTF-8'
 compileJava {
-    options.encoding = defaultEncoding  // src/main/java”z‰º‚Ì*.java‚É‰e‹¿
+    options.encoding = defaultEncoding  // src/main/javaï¿½zï¿½ï¿½ï¿½ï¿½*.javaï¿½É‰eï¿½ï¿½
 }
 compileTestJava {
-    options.encoding = defaultEncoding  // src/test/java”z‰º‚Ì*.java‚É‰e‹¿
+    options.encoding = defaultEncoding  // src/test/javaï¿½zï¿½ï¿½ï¿½ï¿½*.javaï¿½É‰eï¿½ï¿½
 }
 apply plugin: 'java'
 
@@ -38,7 +38,7 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 version = '1.0'
 jar {
-	baseName = 'CreateManifestfileforGit'
+	baseName = 'create-manifestfile-tool'
 	version = '0.0.1'
 	manifest {
 	   attributes 'Main-Class': 'com.tools.git.Main'

@@ -29,7 +29,7 @@ public class CMN_Const {
 	
 	public static String GIT_FILE_PATH = CURRENT_PATH + GIT_DIR + GIT_SETTING_DIR;
 
-	public static String SRC_PATH = "src/";
+	public static String SRC_PATH = "src" + CMN_Util.pathChr();
 	/** マニュフェストファイルパス */
 	public static final String MANIFEST_FILE_PATH = SRC_PATH + MANIFEST_FILE;
 	/** API VERSION */
