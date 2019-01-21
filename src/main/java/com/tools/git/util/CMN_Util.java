@@ -42,7 +42,8 @@ public class CMN_Util {
     }
 
     public static String getFile(String dirname, String filename) {
-    	return filename.replace(CMN_Const.SRC_PATH + dirname + CMN_Util.pathChr(), "");
+    	String regex = (CMN_Const.SRC_PATH + dirname + CMN_Util.pathChr()).replace(CMN_Util.pathChr(), "/");
+    	return filename.replace(regex, "");
     }
  
     public static String getFolder(String filename) {

@@ -11,6 +11,13 @@ plugins {
     id 'java-library'
 }
 
+def defaultEncoding = 'UTF-8'
+compileJava {
+    options.encoding = defaultEncoding  // src/main/java”z‰º‚Ì*.java‚É‰e‹¿
+}
+compileTestJava {
+    options.encoding = defaultEncoding  // src/test/java”z‰º‚Ì*.java‚É‰e‹¿
+}
 apply plugin: 'java'
 
 dependencies {
